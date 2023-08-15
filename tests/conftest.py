@@ -8,6 +8,11 @@ from unittest import mock
 from pytube import YouTube
 
 
+def hello():
+    print("Hello world")
+hello()
+
+
 def load_playback_file(filename):
     """Load a gzip json playback file."""
     cur_fp = os.path.realpath(__file__)
